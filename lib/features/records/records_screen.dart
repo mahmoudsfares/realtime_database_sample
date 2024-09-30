@@ -30,6 +30,7 @@ class _RecordsScreenState extends State<RecordsScreen> {
         child: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.all(16),
+            // TODO 9: listen to the changes in the view
             child: ValueListenableBuilder<StateResource<List<MyRecord>>>(
               valueListenable: controller.dataNotifier,
               builder: (context, state, child) {

@@ -4,6 +4,7 @@ import 'package:realtime_database_sample/features/records/records_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  // TODO 2: initialize Firebase
   await Firebase.initializeApp();
   runApp(const MyApp());
 }
